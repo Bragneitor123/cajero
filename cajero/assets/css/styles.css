@@ -1,0 +1,29 @@
+.fondo-inicio {
+    background-image: url('../img/banko1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.full-height {
+    min-height: 100vh;
+}
+
+.align-bottom-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.align-bottom-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+a {
+    text-decoration: none;
+}
